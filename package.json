@@ -1,5 +1,5 @@
 {
-  "name": "nestjs",
+  "name": "nestj",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -28,6 +28,9 @@
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/schedule": "^1.0.1",
     "@nestjs/typeorm": "^8.0.1",
+    "ali-oss": "^6.16.0",
+    "compressing": "^1.5.1",
+    "js-base64": "^3.6.1",
     "mysql": "^2.18.1",
     "nestjs-config": "^1.4.8",
     "passport": "^0.4.1",

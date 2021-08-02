@@ -5,8 +5,8 @@ import { ConfigModule, ConfigService } from 'nestjs-config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { FileUploadModule } from 'module/fileUpload/file.module';
 import { HttpRoModule } from 'module/http/http.module';
-import { ServeStaticModule } from '@nestjs/serve-static';
-import { ChatEventsModule } from 'module/webSocket/chat.module';
+// import { ServeStaticModule } from '@nestjs/serve-static';
+// import { ChatEventsModule } from 'module/webSocket/chat.module';
 import { TimingMoule } from 'module/timingTask/timing.module';
 import { StreamModule } from 'module/stream/stream.module';
 import { FileDownloadModule } from 'module/fileDownload/file.module';
@@ -25,10 +25,10 @@ import { FileDownloadModule } from 'module/fileDownload/file.module';
     UserModule,
     FileUploadModule,
     HttpRoModule,
-    ChatEventsModule,
+    // ChatEventsModule,
     TimingMoule,
     StreamModule,
-    FileDownloadModule
-  ]
+    FileDownloadModule,
+  ],
 })
 export class AppModule {}
